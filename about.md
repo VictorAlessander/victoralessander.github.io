@@ -32,11 +32,13 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	<!-- <li>Git</li> -->
 	<!-- <li>PHP</li> -->
 	<li>Python</li>
+	<li>Django</li>
 	<li>Flask</li>
 	<li>Web Scraping</li>
 	<li>Java</li>
 	<li>Spring Boot</li>
 	<li>ReactJS</li>
+	<li>Vue.JS</li>
 	<li>SQL Server</li>
 	<li>HTML/CSS</li>
 	<!-- <li>MySQL - MongoDB</li> -->
