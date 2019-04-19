@@ -16,8 +16,8 @@ resume: false
 resume-external: false
 resume-url: https://google.com/?q=my+resume
 
-url: https://koppl.in/indigo
-# your url: http://USERNAME.github.io
+# url: https://koppl.in/indigo
+your url: https://victoralessander.github.io
 
 permalink: /:title/
 
