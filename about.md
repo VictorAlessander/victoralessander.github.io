@@ -3,8 +3,7 @@ layout: page
 title: About
 ---
 
-Currently I'm working on Conductor Tecnologia as a Mid Analyst Developer, fixing production bugs.
-This company is a credit card processor and creates solutions to others companies to make more easier and technologic payment methods.
+Currently I'm working on Link Solutions, a company recently bought by TNS (Transaction Network Services) as a Mid Analyst Developer, developing, improving and fixing bugs on their systems.
 
 In my free times I like to play drums, watch TV shows and work in my personal projects.
 
@@ -15,6 +14,7 @@ In my free times I like to play drums, watch TV shows and work in my personal pr
   JavaScript: {'React.JS', 'Vue.JS'},
   Java: {'Spring Boot'},
   Database: {'SQL Server'},
+  Infrastructure: {'Docker', 'Portainer'},
   Others: {'HTML', 'CSS', 'Web Scraping'}
 }
 ```
