@@ -10,11 +10,11 @@ In my free times I like to play drums, watch TV shows and work in my personal pr
 ##### Skills
 ```
 {
-  Python: {'Django', 'Flask'},
-  JavaScript: {'React.JS', 'Vue.JS'},
-  Java: {'Spring Boot'},
-  Database: {'SQL Server'},
-  Infrastructure: {'Docker', 'Portainer'},
-  Others: {'HTML', 'CSS', 'Web Scraping'}
+  "Python": {"Django", "Flask"},
+  "JavaScript": {"React", "Redux", "Redux-Saga", "Vue.JS", "AngularJS"},
+  "Java": {"Spring Boot"},
+  "Database": {"SQL Server"},
+  "Infrastructure": {"Docker", "Portainer"},
+  "Others": {"HTML", "CSS", "Web Scraping"}
 }
 ```
