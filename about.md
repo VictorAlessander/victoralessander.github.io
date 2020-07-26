@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-Currently I'm working at Link Solutions, a company recently bought by TNS (Transaction Network Services) as a Mid Analyst Developer.
+Currently I'm working at TNS Brasil as a Mid Full Stack Analyst Developer.
 
 In my free times I like to play drums, watch TV shows and work in my personal projects. Also, I love coffee and visit new coffee shops.
 
@@ -11,7 +11,7 @@ In my free times I like to play drums, watch TV shows and work in my personal pr
 ```
 {
   "Python": {"Django", "Flask"},
-  "JavaScript": {"React", "Redux", "Redux-Saga", "Vue.JS", "AngularJS"},
+  "JavaScript": {"React", "Redux", "Redux-Saga", "AngularJS"},
   "Java": {"Spring Boot"},
   "Tests": {"Jest", "Enzyme"},
   "Database": {"SQL Server"},
