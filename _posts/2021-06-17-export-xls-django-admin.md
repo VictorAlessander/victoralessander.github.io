@@ -1,6 +1,6 @@
 ---
 title: How I dealt with export data to spreadsheet from django admin
-updated: 2021-06-18 20:10
+updated: 2021-06-23 19:12
 ---
 
 I had a need to export content from django admin and I knew that django-import-export package could be used for that.
@@ -15,7 +15,14 @@ To turn the code more generic as possible for others export needs, I decided to 
 class SpreadsheetBuilder:
 
     def __init__(self, *args, **kwargs):
-        super().__init__(self, *args, **kwargs)
+        # Get those kwargs to be used here
+        self.param_one = kwargs.get("param_one", None)
+        self.param_two = kwargs.get("param_two", None)
+        ...
+
+        # Passing the remaining args and kwargs
+        # to the next constructor
+        super().__init__(*args, **kwargs)
 
     ...
 
@@ -31,7 +38,17 @@ and make the admin class inherit from it...
 class BlogAdmin(SpreadsheetBuilder, admin.ModelAdmin):
 
     def __init__(self, *args, **kwargs):
-        super().__init__(self, *args, **kwargs)
+        spreadsheet_builder_kwargs = dict(
+            param_one='any content',
+            param_two='any_content'
+        )
+
+        # Calling constructor of the first class inherited
+        super().__init__(
+            *args,
+            **kwargs,
+            **spreadsheet_builder_kwargs
+        )
 ```
 
 Using like this, I can offer the flexibility of use the default methods of SpreadsheetBuilder class or to override any of methods that I included into him and will not force me to create an instance of class for use it, avoiding myself to be repetitive and making the things more clean.
