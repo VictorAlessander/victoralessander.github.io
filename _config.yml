@@ -1,8 +1,8 @@
 # Site Info
-title:              "Victor Alessander"
-description:        "Just an eternal apprentice and technology lover"
-author_name:        "Victor Alessander" # change this to your name
-logo_url:           https://avatars0.githubusercontent.com/u/21283066?v=4 # Get it from GitHub API: https://api.github.com/users/<username>
+title: "Victor Alessander"
+description: "Just an eternal apprentice and technology lover"
+author_name: "Victor Alessander" # change this to your name
+logo_url: https://avatars0.githubusercontent.com/u/21283066?v=4 # Get it from GitHub API: https://api.github.com/users/<username>
 
 facebook: VictorAlessander.xD
 # twitter: mytwitter
@@ -24,41 +24,39 @@ stackoverflow: 65703/victor-alessander
 email: victor.alessander.gr@gmail.com
 
 # Site Settings
-url:                https://victoralessander.github.io # main url
+url: https://victoralessander.github.io # main url
 # baseurl:            /
-permalink:          /:title # Post permalink
-timezone:           America/Fortaleza # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-mathjax:            true  # enables support for mathjax - set to 'false' to disable
+permalink: /:title # Post permalink
+timezone: America/Fortaleza # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+mathjax: true # enables support for mathjax - set to 'false' to disable
 
 # Site Build
-highlighter:        rouge
-markdown:           kramdown
+highlighter: rouge
+markdown: kramdown
 kramdown:
-    input:          GFM
+  input: GFM
 sass:
-    style:          :compressed
+  style: :compressed
 
 # Other Params
-include:            [ "robots.txt" ]
-exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
+include: ["robots.txt"]
+exclude: ["LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script"]
 plugins:
   - jekyll-sitemap
 
-
-
 defaults:
-  -
-    scope:
-      path:         ""
+  - scope:
+      path: ""
     values:
-      layout:       "null"
-  -
-    scope:
-      type:         "pages"
+      layout: "null"
+  - scope:
+      type: "pages"
     values:
-      layout:       "page"
-  -
-    scope:
-      type:         "posts"
+      layout: "page"
+  - scope:
+      type: "posts"
     values:
-      layout:       "post"
+      layout: "post"
+
+jekyll_admin:
+  homepage: "pages"
