@@ -10,7 +10,7 @@ Using any of third-party package I can have more than I really need and I will d
 
 Django docs shows how to get started with [custom model fields](https://docs.djangoproject.com/en/3.2/howto/custom-model-fields/) and additionally with [custom lookups](https://docs.djangoproject.com/en/3.2/howto/custom-lookups/).
 
-For me, I chosed to use the CharField as a base class to build the custom date field that I called as YearMonthField.
+For me, I chose to use the CharField as a base class to build the custom date field that I called as YearMonthField.
 
 ```
 from django.db.models import CharField
