@@ -3,20 +3,20 @@ layout: page
 title: About
 ---
 
-Currently I'm working at Invillia as a Software Developer.
+Currently I'm working at M4U as a Software Engineer.
 
-In my free times I like to play drums, watch TV shows and work in my personal projects. Also, I love coffee and visit new coffee shops.
+Just one thing about me: I love coffee and go to coffee shops just to visit or also to work from there.
 
 ##### Skills
 
 ```
 {
-  "Python": {"Django", "Django Rest Framework", "Celery"},
-  "JavaScript": {"React", "Redux", "Redux-Saga", "AngularJS"},
+  "Python": {"Django", "Django Rest Framework", "Celery", "Scrapy"},
+  "JavaScript": {"React", "Redux", "Redux-Saga", "AngularJS", "TypeScript", "NestJS", "ExpressJS"},
   "Java": {"Spring Boot"},
   "Tests": {"Jest", "Enzyme", "unittest"},
   "Database": {"SQL Server"},
-  "Infrastructure": {"Docker", "Docker Compose"},
-  "Others": {"Web Scraping"}
+  "Infrastructure": {"Docker", "Docker Compose", "Terraform"},
+  "Cloud": {"AWS"}
 }
 ```
