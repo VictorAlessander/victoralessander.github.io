@@ -3,20 +3,18 @@ layout: page
 title: About
 ---
 
-Currently I'm working at BairesDev as a Software Engineer.
-
-Just one thing about me: I love coffee and go to coffee shops just to visit or also to work from there.
+I'm a software engineer who has worked for companies from different industries like payments, e-commerce, vehicle insurance, and credit card processor.
 
 ##### Skills
 
 ```
 {
-  "Python": {"Django", "Django Rest Framework", "Celery", "Scrapy"},
-  "JavaScript": {"React", "Redux", "Redux-Saga", "TypeScript", "NestJS", "ExpressJS"},
-  "Java": {"Spring Boot"},
-  "Tests": {"Jest", "Enzyme", "unittest"},
-  "Database": {"SQL Server"},
-  "Infrastructure": {"Docker", "Docker Compose", "Terraform"},
-  "Cloud": {"AWS"}
+  "Python": ["Django", "Django Rest Framework", "Celery", "Scrapy"],
+  "JavaScript": ["React", "Redux", "Redux-Saga", "TypeScript", "ExpressJS"],
+  "Java": ["Spring Boot"],
+  "Tests": ["Jest", "Enzyme", "unittest", "Cypress", "Selenium"],
+  "Database": ["SQL Server"],
+  "Infrastructure": ["Docker", "Docker Compose", "Terraform"],
+  "Cloud": ["AWS"]
 }
 ```
