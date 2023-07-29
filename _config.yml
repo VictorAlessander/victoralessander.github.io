@@ -1,13 +1,13 @@
 # Site Info
 title:              "Victor Alessander"
-description:        "Software engineer"
+description:        "Software Engineer"
 author_name:        "Victor Alessander" # change this to your name
 logo_url:           https://avatars0.githubusercontent.com/u/21283066?v=4 # Get it from GitHub API: https://api.github.com/users/<username>
 
-facebook: VictorAlessander.xD
+# facebook: VictorAlessander.xD
 # twitter: mytwitter
 # google: mygoogle
-instagram: victoralessander
+# instagram: victoralessander
 # pinterest: mypinterest
 linkedin: VictorAlessander
 # youtube: myyoutube
@@ -15,13 +15,13 @@ spotify: v.a.g.r
 github: VictorAlessander
 # gitlab: mygitlab
 # lastfm: mylastfm
-stackoverflow: 65703/victor-alessander
+stackoverflow: 7799765/victor-alessander
 # quora: userquora
 # reddit: username
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: victor.alessander.gr@gmail.com
+email: alessander@protonmail.com
 
 # Site Settings
 url: https://victoralessander.github.io # main url
